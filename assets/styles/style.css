@@ -1,0 +1,1050 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+
+*{
+    box-sizing: border-box;
+}
+
+        /************************
+
+
+    ************************
+
+
+    ************************
+
+
+                       ******************************
+
+
+                                                ************************/
+
+
+
+        /************************ DESKTOP VIEW START **************************************/
+        @media screen and (min-width: 800px) {
+     
+body{
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    display: flex;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialiased;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 10px 0 50;
+    -webkit-animation: colorchange 300s infinite;
+    -moz-animation: colorchange 300s infinite;
+    -ms-animation: colorchange 300s infinite;
+    -o-animation: colorchange 300s infinite;
+    animation: colorchange 300s infinite;
+}
+::-moz-selection {
+ background:#409fff;
+ color:#ffffff
+}
+::selection {
+ background:#409fff;
+ color:#ffffff
+}
+*,
+*:before,
+*:after {
+ -webkit-tap-highlight-color:transparent;
+ box-sizing:border-box
+}
+
+@keyframes colorchange
+    {
+        0%   {background:red;} 
+        10% {
+            transition: all 5s ease-in-out;
+            background: url('../images/TelicSoundOfficialLogo.png') 0-100%;
+            background-size: cover;
+        }
+        20%   {background: tomato;}
+        30%  {background: teal;}
+        40%   {background: wheat;}
+        50%   {background: indianred;}
+        60%  {background: chocolate;}
+        70%   {background: peru;}
+        80%  {background: green;}
+        90%   {background: saddlebrown;}
+        100% {background: firebrick;}
+    }
+
+    @-webkit-keyframes colorchange 
+    {
+        0%   {background:red;} 
+        10% {
+            transition: all 5s ease-in-out;
+            background: url('../images/TelicSoundOfficialLogo.png') 0-100%;
+            background-size: cover;
+        }
+        20%   {background: tomato;}
+        30%  {background: teal;}
+        40%   {background: wheat;}
+        50%   {background: indianred;}
+        60%  {background: chocolate;}
+        70%   {background: peru;}
+        80%  {background: green;}
+        90%   {background: saddlebrown;}
+        100% {background: firebrick;}
+    }
+
+    @-moz-keyframes colorchange 
+    {
+        0%   {background:red;} 
+        10% {
+            transition: all 5s ease-in-out;
+            background: url('../images/TelicSoundOfficialLogo.png') 0-100%;
+            background-size: cover;
+        }
+        20%   {background: tomato;}
+        30%  {background: teal;}
+        40%   {background: wheat;}
+        50%   {background: indianred;}
+        60%  {background: chocolate;}
+        70%   {background: peru;}
+        80%  {background: green;}
+        90%   {background: saddlebrown;}
+        100% {background: firebrick;}
+    }
+
+    @-ms-keyframes colorchange 
+    {
+        0%   {background:red;} 
+        10% {
+            transition: all 5s ease-in-out;
+            background: url('../images/TelicSoundOfficialLogo.png') 0-100%;
+            background-size: cover;
+        }
+        20%   {background: tomato;}
+        30%  {background: teal;}
+        40%   {background: wheat;}
+        50%   {background: indianred;}
+        60%  {background: chocolate;}
+        70%   {background: peru;}
+        80%  {background: green;}
+        90%   {background: saddlebrown;}
+        100% {background: firebrick;}
+    }
+
+    @-o-keyframes colorchange 
+    {
+        0%   {background:red;} 
+        10% {
+            transition: all 5s ease-in-out;
+            background: url('../images/TelicSoundOfficialLogo.png') 0-100%;
+            background-size: cover;
+        }
+        20%   {background: tomato;}
+        30%  {background: teal;}
+        40%   {background: wheat;}
+        50%   {background: indianred;}
+        60%  {background: chocolate;}
+        70%   {background: peru;}
+        80%  {background: green;}
+        90%   {background: saddlebrown;}
+        100% {background: firebrick;}
+    }
+
+    .myLogo{
+        margin: 0;
+        padding: 0;
+        margin-left: -1200px;
+        -webkit-transform: skew(-30deg);
+        -moz-transform: skew(-30deg);
+        -ms-transform: skew(-30deg);
+        -o-transform: skew(-30deg);
+        transform: skew(-30deg);
+        -webkit-animation:logoFadeIn 7s ease-in;
+        -moz-animation:logoFadeIn 7s ease-in;
+        -ms-animation:logoFadeIn 7s ease-in;
+        -o-animation:logoFadeIn 7s ease-in;
+        animation:logoFadeIn 7s ease-in;
+    }
+
+    .myLogo span{
+        font-size: 38pt;
+        font-weight: bolder;
+        color: white;
+        font-family: 'Tangerine', serif;
+        letter-spacing: -1px;
+        -webkit-animation: textColor 300s infinite;
+        -moz-animation: textColor 300s infinite;
+        -ms-animation: textColor 300s infinite;
+        -o-animation: textColor 300s infinite;
+        animation: textColor 300s infinite;
+    }
+
+
+@-webkit-keyframes logoFadeIn {
+    0% {
+     opacity:0;
+    }
+    100% {
+     opacity:1;
+    }
+   }
+   @keyframes logoFadeIn {
+    0% {
+     opacity:0;
+    }
+    100% {
+     opacity:1;
+    }
+   }
+
+
+@-moz-keyframes logoFadeIn {
+       0% {
+        opacity:0;
+       }
+       100% {
+        opacity:1;
+       }
+      }
+@keyframes logoFadeIn {
+       0% {
+        opacity:0;
+       }
+       100% {
+        opacity:1;
+       }
+      }
+
+
+@-ms-keyframes logoFadeIn {
+0% {
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+@keyframes logoFadeIn {
+0% {
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+
+
+@-o-keyframes logoFadeIn {
+    0% {
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+@keyframes logoFadeIn {
+    0% {
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+
+
+@keyframes logoFadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+    }
+    @keyframes logoFadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+    }
+    
+    @-webkit-keyframes textColor 
+        {
+            0%  {color: rgb(26, 22, 241);}
+            50%   {color: rgb(0, 0, 0);}
+            100%  {color: rgb(243, 26, 55);}
+        }
+    
+    @-moz-keyframes textColor 
+        {
+            0%  {color: rgb(26, 22, 241);}
+            50%   {color: rgb(0, 0, 0);}
+            100%  {color: rgb(243, 26, 55);}
+        }
+    
+    @-ms-keyframes textColor 
+        {
+            0%  {color: rgb(26, 22, 241);}
+            50%   {color: rgb(0, 0, 0);}
+            100%  {color: rgb(243, 26, 55);}
+        }
+    
+    @-o-keyframes textColor 
+        {
+            0%  {color: rgb(26, 22, 241);}
+            50%   {color: rgb(0, 0, 0);}
+            100%  {color: rgb(243, 26, 55);}
+        }
+    
+    @keyframes textColor 
+        {
+            0%  {color: rgb(26, 22, 241);}
+            50%   {color: rgb(0, 0, 0);}
+            100%  {color: rgb(243, 26, 55);}
+        }
+
+h1{
+    font-weight: bold;
+    margin: 0;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5;
+    margin: 20px 0 30px;
+}
+
+span{
+    font-size: 12px;
+}
+
+a{
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+    outline: none;
+    border: none;
+}
+
+.container{
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    height: 90%;
+    max-width: 100%;
+    min-width: 480px;
+    transform: translateY(-1rem);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.form-container form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social-container{
+    margin: 20px 0;
+}
+
+.social-container a {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.form-container input{
+    background: #eee;
+    border: none;
+    padding: 15px 15px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 5px;
+    outline-color: #ff416c;
+}
+
+button{
+    border-radius: 20px;
+    border: 1px solid #ff4b2b;
+    background: #ff4b2b;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 35px;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    outline: none;
+    text-transform: uppercase;
+    transition: transform 50ms ease-in;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+button:active{
+    outline: none;
+    transform: scale(0.95);
+    transform: translateY(5px);
+}
+
+button:focus{
+    outline: none;
+}
+
+button.ghost{
+    background: transparent;
+    border-color: #fff;
+    border: none;
+}
+
+.form-container{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.form-container #aLink{
+    color: #ff616f;
+    font-size: 16pt;
+    font-family: roboto;
+    font-weight: bold;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container{
+    left: 0;
+    width: 50%;
+    z-index: 2;
+    -webkit-animation-name: animatebottom 2s ease;
+    -moz-animation-name: animatebottom 2s ease;
+    -ms-animation-name: animatebottom 2s ease;
+    -o-animation-name: animatebottom 2s ease;
+    animation-name: animatebottom 2s ease;
+}
+
+#formlink{
+    text-decoration: underline dotted darkred;
+}
+
+.sign-up-container{
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.forgot-in-container {
+    margin: 0;
+    width: 50%;
+    position: absolute;
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+    display: table;
+    -webkit-animation: animatebottom 2s ease;
+    -moz-animation: animatebottom 2s ease;
+    -ms-animation: animatebottom 2s ease;
+    -o-animation: animatebottom 2s ease;
+    animation: animatebottom 2s ease;
+}
+
+.forgot-in-container input{
+    background: #eee;
+    border: none;
+    padding: 15px 10px;
+    margin: 50px 0 30px 0;
+    width: 90%;
+    border-radius: 5px;
+    outline-color: #ff4b2b;
+}
+
+.forgot-in-container h1{
+    font-weight: bolder;
+    font-size: 14pt;
+    margin: 0;
+    padding: 0;
+}
+
+.forgot-in-container p{
+    margin: 0;
+    padding: 0;
+}
+
+.forgot-in-container span{
+    padding: 30px 0;
+}
+
+.forgot-in-container span p {
+    padding: 0 0 20px 0;
+}
+.forgot-in-container span a{
+    color: #ff416c;
+    border: 1px solid black;
+    background: transparent;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.4);
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-size: 14pt;
+}
+  
+  @-webkit-keyframes animatebottom {
+    from { left:-400px; opacity:0.5; } 
+    to { left:0px; opacity:1; }
+  }
+  
+  @-moz-keyframes animatebottom {
+    from { left:-400px; opacity:0.5; } 
+    to { left:0px; opacity:1; }
+  }
+  
+  @-ms-keyframes animatebottom {
+    from { left:-400px; opacity:0.5; } 
+    to { left:0px; opacity:1; }
+  }
+  
+  @-o-keyframes animatebottom {
+    from { left:-400px; opacity:0.5; } 
+    to { left:0px; opacity:1; }
+  }
+  
+  @keyframes animatebottom { 
+    from{ left:-400px; opacity:0.5; } 
+    to{ left:0; opacity:1; }
+  }
+
+.overlay-container{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+}
+
+.overlay{
+    background: #ff416c;
+    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    color: #fff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.overlay-panel{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+    background: linear-gradient(to left, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+
+}
+
+.overlay-right{
+    right: 0;
+    transform: translateX(0);
+}
+
+.overlay-left{
+    transform: translateX(-20%);
+}
+
+/* Animation */
+
+/* Move the Sign In to the right */
+.container.right-panel-active .sign-in-container{
+    transform: translateX(100%);
+}
+
+/* Move overlay to the left */
+.container.right-panel-active .overlay-container{
+    transform: translateX(-100%);
+}
+
+/* Bring  Sign Up over Sign In */
+.container.right-panel-active .sign-up-container{
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+}
+
+/* Move overlay back to the right */
+.container.right-panel-active .overlay{
+    transform: translateX(50%);
+}
+
+.container.right-panel-active .overlay-left{
+    transform: translateX(0);
+}
+
+.container.right-panel-active .overlay-right{
+    transform: translateX(20%);
+}
+}
+
+/************************
+
+
+    ************************
+
+
+    ************************
+
+
+                       ******************************
+
+
+                                               ************************/
+
+
+        /************************ MOBILE VIEW START **************************************/
+        @media screen and (min-width: 50px) and (max-width: 800px) {
+ 
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background: #f6f5f7; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 10px 0 50px;
+    -webkit-animation: bodycolorchange 500s infinite;
+    -ms-animation: bodycolorchange 500s infinite;
+    -moz-animation: bodycolorchange 500s infinite;
+    -o-animation: bodycolorchange 500s infinite;
+    animation: bodycolorchange 500s infinite;
+}
+
+@keyframes bodycolorchange
+    {
+        0%   {background: red;}
+        10%   {background: thistle;}
+        20%   {background: tomato;}
+        30%  {background: teal;}
+        40%   {background: wheat;}
+        50%   {background: indianred;}
+        60%  {background: chocolate;}
+        70%   {background: peru;}
+        80%  {background: green;}
+        90%   {background: saddlebrown;}
+        100% {background: firebrick;}
+    }
+
+    @-webkit-keyframes bodycolorchange /* Safari and Chrome - necessary duplicate */
+    {
+        0%   {background: red;}
+        10%   {background: thistle;}
+        20%   {background: tomato;}
+        30%  {background: teal;}
+        40%   {background: wheat;}
+        50%   {background: indianred;}
+        60%  {background: chocolate;}
+        70%   {background: peru;}
+        80%  {background: green;}
+        90%   {background: saddlebrown;}
+        100% {background: firebrick;}
+    }
+
+    .myLogo{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        top: 5px;
+        left: 10px;
+        position: absolute;
+        /* margin-left: -300px; */
+        -webkit-transform: skew(-30deg);
+        -moz-transform: skew(-30deg);
+        -ms-transform: skew(-30deg);
+        -o-transform: skew(-30deg);
+        transform: skew(-30deg);
+        -webkit-animation:logoFadeIn 2s ease-in;
+        -ms-animation:logoFadeIn 2s ease-in;
+        -moz-animation:logoFadeIn 2s ease-in;
+        -o-animation:logoFadeIn 2s ease-in;
+        animation:logoFadeIn 2s ease-in;
+    }
+
+    .myLogo span{
+        font-size: 30pt;
+        font-weight: bolder;
+        color: white;
+        font-family: 'Tangerine', serif;
+        letter-spacing: -1px;
+        animation: textColor 300s;
+        -webkit-animation: textColor 300s infinite;
+        -ms-animation: textColor 300s infinite;
+        -moz-animation: textColor 300s infinite;
+        -o-animation: textColor 300s infinite;
+        animation: textColor 300s infinite;
+    }
+
+
+@-webkit-keyframes logoFadeIn {
+    0% {
+     opacity:0;
+    }
+    100% {
+     opacity:1;
+    }
+   }
+   @keyframes logoFadeIn {
+    0% {
+     opacity:0;
+    }
+    100% {
+     opacity:1;
+    }
+   }
+
+    @keyframes textColor
+        {
+            0%   {color: rgb(0, 0, 0);}
+            50%  {color: rgb(241, 238, 22);}
+            100%  {color: rgb(243, 26, 55);}
+        }
+    
+        @-webkit-keyframes textColor /* Safari and Chrome - necessary duplicate */
+        {
+            0%   {color: rgb(0, 0, 0);}
+            50%  {color: rgb(241, 238, 22);}
+            100%  {color: rgb(243, 26, 55);}
+        }
+
+h1{
+    font-weight: bolder;
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5;
+    margin: 30px 0 50px;
+}
+
+span{
+    font-size: 12px;
+}
+
+a{
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 15px 0;
+    outline: none;
+}
+
+.container{
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height: 85%;
+    max-width: 100%;
+    min-width: auto;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.form-container form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social-container{
+    margin: 10px 0;
+}
+
+.social-container a {
+    border: none;
+    font-weight: bolder;
+    font-size: 14pt;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+    -webkit-animation: bodycolorchange 50s infinite;
+    -ms-animation: bodycolorchange 50s infinite;
+    -moz-animation: bodycolorchange 50s infinite;
+    -o-animation: bodycolorchange 50s infinite;
+    animation: bodycolorchange 50s infinite;
+}
+
+.form-container input{
+    background: #eee;
+    border: none;
+    padding: 15px 20px;
+    margin: 7px 0;
+    width: 95%;
+    border-radius: 5px;
+    border-radius: 5px;
+    outline-color: #ff4b2b;
+}
+
+button{
+    border-radius: 20px;
+    border: 1px solid #ff4b2b;
+    background: #ff4b2b;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 50ms ease-in;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.95);
+    transform: translateX(10px);
+}
+
+button:focus{
+    outline: none;
+}
+
+button.ghost{
+    background: transparent;
+    border-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.form-container{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.form-container #aLink{
+    color: #ff616f;
+    cursor: default;
+    font-size: 14pt;
+    font-family: roboto;
+    font-weight: bold;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container{
+    left: 0;
+    width: 50%;
+    z-index: 2;
+    -webkit-animation: animatebottom 2s ease;
+    -ms-animation: animatebottom 2s ease;
+    -moz-animation: animatebottom 2s ease;
+    -o-animation: animatebottom 2s ease;
+    animation: animatebottom 2s ease;
+}
+
+#formlink{
+    text-decoration: underline dotted darkred;
+}
+
+.sign-up-container{
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.forgot-in-container {
+    margin: 0;
+    width: 50%;
+    position: absolute;
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+    display: table;
+    -webkit-animation: animatebottom 2s ease;
+    -ms-animation: animatebottom 2s ease;
+    -moz-animation: animatebottom 2s ease;
+    -o-animation: animatebottom 2s ease;
+    animation: animatebottom 2s ease;
+}
+
+.forgot-in-container input{
+    background: #eee;
+    border: none;
+    padding: 15px 10px;
+    margin: 10px 0 10px 0;
+    width: 90%;
+    border-radius: 5px;
+    outline-color: #ff4b2b;
+}
+
+.forgot-in-container h1{
+    font-weight: bolder;
+    font-size: 14pt;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.forgot-in-container p{
+    font-size: 10pt;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.forgot-in-container span{
+    padding: 30px 0;
+}
+
+.forgot-in-container span p {
+    padding: 0 0 20px 0;
+}
+.forgot-in-container span a{
+    color: #ff416c;
+    border: 1px solid black;
+    background: transparent;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.4);
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 12pt;
+}
+  
+@-webkit-keyframes animatebottom {
+    from { left:-400px; opacity:0.5; } 
+    to { left: 0; opacity:1; }
+}
+  
+@keyframes animatebottom { 
+    from{ left:-400px; opacity:0.5; } 
+    to{ left: 0; opacity:1; }
+}
+
+.overlay-container{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+}
+
+.overlay{
+    background: #ff416c;
+    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    color: #fff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.overlay-panel{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+    background: linear-gradient(to left, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+
+}
+
+.overlay-right{
+    right: 0;
+    transform: translateX(0);
+}
+
+.overlay-left{
+    transform: translateX(-20%);
+}
+
+/* Animation */
+
+/* Move the Sign In to the right */
+.container.right-panel-active .sign-in-container{
+    transform: translateX(100%);
+}
+
+/* Move overlay to the left */
+.container.right-panel-active .overlay-container{
+    transform: translateX(-100%);
+}
+
+/* Bring  Sign Up over Sign In */
+.container.right-panel-active .sign-up-container{
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+}
+
+/* Move overlay back to the right */
+.container.right-panel-active .overlay{
+    transform: translateX(50%);
+}
+
+.container.right-panel-active .overlay-left{
+    transform: translateX(0);
+}
+
+.container.right-panel-active .overlay-right{
+    transform: translateX(20%);
+}
+        }
+
+        
+        /*************************************** MOBILE VIEW END *************************/

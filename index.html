@@ -1,0 +1,109 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <title>Slider Sign In/Sign Up form</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+</head>
+
+<body>
+    <div class="myLogo">
+        <div>
+            <a href="#">
+                <span title="telic Sound">
+                    <abb title="telic Sound">tS</abb>
+                </span>
+                </a>
+        </div>
+    </div>
+
+
+    <div class="container" id="container">
+
+        <!-- Sign Up -->
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Full Name" />
+                <input type="text" placeholder="User Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <input type="password" placeholder="Retype Password" />
+                <br/>
+                <button>Sign Up </button>
+            </form>
+        </div>
+        <!-- End of Sign Up-->
+
+
+        <!-- Sign In-->
+        <div class="form-container sign-in-container" id="signingIn">
+            <form action="#">
+                <h1>Sign In</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <a href="#" onclick="resetPassword()" id="formlink">Forgot your password? </a>
+                <button>Sign In </button>
+            </form>
+        </div>
+        <!-- End of Sign In-->
+
+
+        <!-- Forgot PAssword-->
+        <div class="form-container forgot-in-container" id="forgotForm">
+            <form action="#" >
+                <h1>Reset Password</h1>
+                <div class="social-container">
+                </div>
+               <p>Enter your Registered Email and an email will be sent to you with instructions.
+                </p>
+                <input type="email" placeholder="Email" /><br>
+                <button>Update </button>
+                <span>
+                    <p>or use your account to</p>
+                <a href="#" onclick="signInForm()" id="signlink">Sign In </a></span>
+            </form>
+        </div>
+        <!-- End-->
+
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>
+                        To keep connected with the latest entertainment please 
+                        login with your personal information. . .
+                    </p>
+                    <button class="ghost" id="signIn" onclick="signInForm()">Sign In </button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello telicSound!</h1>
+                    <p>
+                        Enter your personal details and start an entertaining journey with us. . .
+                    </p>
+                    <button class="ghost" id="signUp">Sign Up </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
